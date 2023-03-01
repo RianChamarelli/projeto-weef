@@ -1,4 +1,20 @@
 .nav__container {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 30%);
+}
+
+.text--slogan {
+    color: #2B2626;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 22px 0 23px 70px;
+}
+
+.nav__options{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,16 +24,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #2B2626;
+    font-size: 13px;
+    font-weight: 600;
+    list-style-type: none;
 }
 
 .nav__itens {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 28px 0;
+    margin-left: 28px;
 }
 
 .nav__phone {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 26px 0;
+}
+.nav__icone--phone {
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.nav__phone--number {
+    font-size: 16px;
+    font-weight: 400;
+    height: 20px;
+    width: 108px;
+    margin-left: 15px;
+}
+
+.nav__button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 129px;
+    height: 46px;
+    margin: 13px 70px 13px 24px;
+    
 }
