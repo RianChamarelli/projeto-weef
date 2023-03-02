@@ -3,7 +3,7 @@ import React from 'react';
 const Input = ({ type, placeHolder, name, ...props }) => {
   return (
     <>
-      <input type={type} placeHolder={placeHolder} name={name} {...props} />
+      <input type={type} placeholder={placeHolder} name={name} {...props} />
     </>
   );
 };

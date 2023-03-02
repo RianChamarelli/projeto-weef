@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './header/Header';
+import Nav from './Nav/Nav';
 import Footer from './footer/Footer';
-import MainSection from './main/mainSection/MainSection';
-import Form from './main/form/Form';
+import Header from './header/Header';
+import Main from './main/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Nav />
     <Header />
-    <MainSection />
+    <Main />
     <Footer />
   </React.StrictMode>,
 );

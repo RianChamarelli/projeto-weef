@@ -5,11 +5,11 @@ import './Form.css';
 const Form = () => {
   const [formName, setFormName] = React.useState('');
   const [formEmail, setFormEmail] = React.useState('');
-  const [formSelect, setFormSelect] = React.useState('Assunto');
+  const [formSelect, setFormSelect] = React.useState('');
   const [formArea, setFormArea] = React.useState('');
 
   return (
-    <div className="form__container">
+    <div className="form__main">
       <p className="form__title">Ornare ante sapien risus nulla.</p>
       <form className="form">
         <Input
@@ -45,9 +45,8 @@ const Form = () => {
           value={formArea}
           onChange={(event) => setFormArea(event.target.value)}
         ></textarea>
-
-        <button className="form__button">Enviar</button>
       </form>
+      <button className="form__button">Enviar</button>
       <p className="form__subtitle">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
         pellentesque facilisis id pulvinar eu mi id. Euismod.

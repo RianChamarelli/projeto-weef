@@ -1,64 +1,50 @@
-.nav__container {
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ECECEC;
-    box-shadow: 0 0 12px 0 rgb(0 0 0 / 30%);
+.header {
+    max-width: 1280px;
+    height: 100%;
+    margin: 12px auto;
+    position: relative;
+    background-position: bottom;
+    background-image: url('../../public/header/BG-Banner.png');
 }
 
-.text--slogan {
-    color: #2B2626;
-    font-size: 22px;
-    font-weight: 700;
-    margin: 22px 0 23px 70px;
+.header__text {
+    padding: 96px 0 0 70px;
 }
 
-.nav__options{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #2B2626;
-    font-size: 13px;
+.header__title {
+    width: 459px;
+    margin: auto 0;
+    font-size: 48px;
     font-weight: 600;
-    list-style-type: none;
+    line-height: 48px;
 }
 
-.nav__itens {
-    margin: 28px 0;
-    margin-left: 28px;
-}
-
-.nav__phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 26px 0;
-}
-.nav__icone--phone {
-    font-size: 26px;
-    margin-left: 30px;
-}
-
-.nav__phone--number {
-    font-size: 16px;
+.header__subtitle {
+    width: 361px;
+    margin: 24px 0;
+    font-size: 18px;
     font-weight: 400;
-    height: 20px;
-    width: 108px;
-    margin-left: 15px;
+    line-height: 28px;
 }
 
-.nav__button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    width: 129px;
-    height: 46px;
-    margin: 13px 70px 13px 24px;
-    
+.header__link {
+    width: 91px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #DA2828;
+    text-decoration: none;
+
 }
+
+.header__form {
+    position: absolute;
+    top: 56px;
+    left: 751px;
+    width: 459px;
+    height: 611px;
+    background-color: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    box-shadow: 0 10px 32px 0 rgb(0 0 0 / 16%);
+}
+

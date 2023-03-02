@@ -1,25 +1,20 @@
-.form__container {
-    margin: 48px 32px;
+.form__main {
+    margin:24px 32px 24px 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .form__title {
     width: 250px;
+    margin-bottom: 24px;
     font-size: 16px;
     font-weight: 600;
 }
 
 .form {
-    width: 395px;
-    height: 420px;
-    margin-bottom: 24px;
-}
-
-.form__button {
-    width: 395px;
-    height: 48px;
-    font-size: 16px;
+    width: 400px;
+    height: 365px;
+    margin-bottom: 20px;
 }
 
 .form__input {
@@ -36,12 +31,11 @@
     box-sizing: border-box;
 }
 
-.form__option {
-    font-family: 'Montserrat', sans-serif;
+.form__button {
+    width: 395px;
+    height: 48px;
     font-size: 16px;
-    font-weight: 400px;
-    color: #444444;
-
+    margin-bottom: 24px;
 }
 
 .form__subtitle {
@@ -49,4 +43,6 @@
     color: #898989;
     font-size: 13px;
     font-weight: 400;
+    line-height: 21px;
+    margin: 0;
 }

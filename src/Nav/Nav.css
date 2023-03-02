@@ -1,0 +1,61 @@
+.nav{
+    max-width: 1280px;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__text--slogan {
+    color: #2B2626;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 22px 0 23px 70px;
+}
+
+.nav__options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B2626;
+    font-size: 13px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.nav__itens {
+    margin: 28px 0 28px 28px;
+}
+
+.nav__phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 0;
+}
+.nav__icone--phone {
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.nav__phone--number {
+    font-size: 16px;
+    font-weight: 400;
+    height: 20px;
+    width: 108px;
+    margin-left: 15px;
+}
+
+.nav__button {
+    font-size: 13px;
+    width: 129px;
+    height: 46px;
+    margin: 13px 70px 13px 24px;
+    
+}
