@@ -40,7 +40,7 @@ const Form = () => {
         <textarea
           className="form__input"
           name="message"
-          rows="5"
+          rows="4"
           placeholder="Mensagem"
           value={formArea}
           onChange={(event) => setFormArea(event.target.value)}

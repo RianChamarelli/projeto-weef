@@ -1,25 +1,13 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
   margin: 0;
+  padding: 0;
 }
 
 .container {
- width: 100%;
-}
-
-nav.container  {
-  height: 72px;
-  border-top: 1px solid #C4C4C4;
-  box-shadow: 0 0 12px 0 rgb(0 0 0 / 30%);
-}
-
-header.container {
-  height: 648px;
-}
-
-main.container {
-  height: 2025px;
-  background-color: #F5F5F5;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 button {

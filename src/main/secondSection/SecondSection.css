@@ -1,0 +1,45 @@
+.depositions {
+    height: 680px;
+    padding-top: 112px;
+    color: #2B2626;
+}
+
+.depositions__text {
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.depositions__text--span {
+    width: 264px;
+    color: #DA2828;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.depositions__text--title {
+    width: 751px;
+    margin: 8px 0 0 0;
+    color: #2B2626;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.depositions__text--subtitle {
+    width: 556px; 
+    margin: 8px 0 0 0;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;   
+}
+
+.carousel{
+    height: 545px;
+    margin: 0 0 104px 0;
+}
+

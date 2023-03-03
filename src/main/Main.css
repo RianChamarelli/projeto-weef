@@ -1,0 +1,11 @@
+.main{
+    height: 1377px;
+    background-color: #F5F5F5;
+    background-position: bottom;
+    background-image: url('../../public/secondSection/BG-Illustration.png');
+    background-repeat: no-repeat;
+}
+
+.main__row {
+    margin: 0 70px;
+}

@@ -1,35 +1,33 @@
 .vantage {
-    max-width: 1280px;
-    height: 100%;
-    margin: auto;
+    height: 337px;
+    padding-top: 91px;
     display: flex;
     justify-content: space-between;
+    color: #2B2626;
 }
 
 .vantage__information {
     width: 460px;
-    height: 337px;
-    padding-top: 91px;
 }
 
 .vantage__title {
+    margin: 0;
     font-size: 32px;
     font-weight: 600;
-    line-height: 32px;
-    margin: 0 0 24px 0 ;
+    line-height: 32px; 
 }
 
 .vantage__subtitle {
+    margin: 24px 0 0 0;
     color: #444444;
-    margin: 0;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 24px;
 }
 
 .vantage__list {
-    margin: 28px 0 20px 0;
     padding: 0;
+    margin: 28px 0 32px 0;
     font-size: 15px;
     font-weight: 600;
     list-style-type: none;
@@ -44,20 +42,18 @@
 }
 
 .vantage__list__text {
+    margin: 0 0 0 19px;
     display: inline-block;
-    margin: 0 0 0 19px
 }
 
 .vantage__button {
-    width: 235px;
+    width: 240px;
     height: 45px;
     font-size: 14px;
 }
 
 .vantage__img {
     width: 644px;
-    height: 337px;
     margin: 0;
-    padding: 87px 70px 0 0;
 }
 
