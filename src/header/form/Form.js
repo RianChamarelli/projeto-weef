@@ -1,11 +1,12 @@
 import React from 'react';
 import Input from './Input';
+import { VscChevronDown } from 'react-icons/vsc';
 import './Form.css';
 
 const Form = () => {
   const [formName, setFormName] = React.useState('');
   const [formEmail, setFormEmail] = React.useState('');
-  const [formSelect, setFormSelect] = React.useState('');
+  const [formSelect, setFormSelect] = React.useState('Assunto');
   const [formArea, setFormArea] = React.useState('');
 
   return (
@@ -31,11 +32,15 @@ const Form = () => {
         />
 
         <select
-          className="form__input"
+          className="form__input form__select"
           name="select"
           value={formSelect}
           onChange={(event) => setFormSelect(event.target.value)}
-        ></select>
+        >
+          <option className="form__select--option" value="Assunto" disabled>
+            Assunto
+          </option>
+        </select>
 
         <textarea
           className="form__input"

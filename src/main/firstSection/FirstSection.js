@@ -1,7 +1,7 @@
 import React from 'react';
 import './FirstSection.css';
 import Img1 from './Conversation.png';
-import { FcCheckmark } from 'react-icons/fc';
+import { FaCheck } from 'react-icons/fa';
 
 const FirstSection = () => {
   return (
@@ -17,7 +17,7 @@ const FirstSection = () => {
         <ul className="vantage__list">
           <li className="vantage__list--itens">
             <span className="vantage__list__icon">
-              <FcCheckmark />
+              <FaCheck />
             </span>
             <p className="vantage__list__text">
               Lorem ipsum dolor sit amet, consectetur
@@ -25,7 +25,7 @@ const FirstSection = () => {
           </li>
           <li className="vantage__list--itens">
             <span className="vantage__list__icon">
-              <FcCheckmark />
+              <FaCheck />
             </span>
             <p className="vantage__list__text">
               adipiscing elit. Proin pellentesque facilisis
@@ -33,7 +33,7 @@ const FirstSection = () => {
           </li>
           <li className="vantage__list--itens">
             <span className="vantage__list__icon">
-              <FcCheckmark />
+              <FaCheck />
             </span>
             <p className="vantage__list__text">
               id pulvinar eu mi id. Euismod.
