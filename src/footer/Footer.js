@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="footer__bot">
             <p className="footer__copyright">
-              Teste front@ 2020 | Todos os direitos reservados
+              Teste front @ 2020 | Todos os direitos reservados
             </p>
             <ul className="footer__list">
               <li className="footer__list--itens">

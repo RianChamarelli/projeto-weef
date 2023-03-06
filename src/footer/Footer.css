@@ -6,7 +6,7 @@
 
 .footer__row {
     margin: 0 70px;
-    padding: 40px 0 12px 0;
+    padding: 40px 0 0 0;
 }
 
 .footer__top {
@@ -88,4 +88,89 @@
     color: #898989;
     font-size: 12px;
     font-weight: 400;
+}
+
+@media (min-width: 780px) and (max-width: 1279px) { 
+    .footer__row {
+        margin: 0 35px;
+        padding: 20px 0 0 0;
+    }
+
+    .footer__slogan {
+        width: 160px;
+    }
+
+    .footer__phrase {
+        width: 205px;
+    }
+
+    .footer__phone {
+        width: 110px;
+    }
+
+    .footer__copyright {
+        width: 185px;
+    }
+
+    .footer__list {
+        width: 205px;
+    }    
+    
+    .footer__privacity {
+        width: 140px;
+    }
+    
+}
+
+@media (min-width: 380px) and (max-width: 779px)  {
+    .footer {
+        height: 100%;
+    }
+
+    .footer__row {
+        margin: 30px 17.5px 0 17.5px;
+    }
+
+    .footer__top {
+        padding-bottom: 16px;
+    }
+
+    .footer__slogan {
+        width: 25%;
+        font-size: 15px;
+    }
+
+    .footer__phrase {
+        width: 50%;
+        font-size: 13px;
+    }
+
+    .footer__phone {
+        width: 25%;
+    }
+
+    .footer__phone--phrase {
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .footer__phone--number {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .footer__copyright {
+        width: 25%;
+        font-size: 8px;
+    }
+
+    .footer__list {
+        width: 50%;
+        margin: 0 10px 0 0; 
+    }
+
+    .footer__privacity {
+        width: 25%;
+        font-size: 8px;
+    }
 }

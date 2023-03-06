@@ -9,3 +9,29 @@
 .main__row {
     margin: 0 70px;
 }
+
+@media (min-width: 780px) and (max-width: 1279px) {
+    .main{
+        height: 1200px;
+        background-position: bottom;
+        background-image: url('../../public/secondSection/BG-Illustration@0.75x.png');
+        background-repeat: no-repeat;
+    }   
+    
+    .main__row {
+        margin: 0 35px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 779px) {
+    .main{
+        height: 100%;
+        background-position: bottom;
+        background-image: url('../../public/secondSection/BG-Illustration@0.75x.png');
+        background-repeat: no-repeat;
+    }
+
+    .main__row {
+        margin: 0 17.5px;
+    }
+}

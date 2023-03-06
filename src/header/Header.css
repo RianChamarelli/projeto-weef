@@ -1,10 +1,10 @@
-.header {
-    height: 648px;
-    color: #2B2626;
-    background-position: bottom;
-    background-image: url('../../public/header/BG-Banner.png');
-    background-repeat: no-repeat;
-}
+    .header {
+        height: 648px;
+        color: #2B2626;
+        background-image: url('../../public/header/BG-Banner.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
 
 .header__row {
     height: 100%;
@@ -52,3 +52,70 @@
     box-shadow: 0 10px 32px 0 rgb(0 0 0 / 16%);
 }
 
+@media (min-width: 780px) and (max-width: 1279px){
+    .header {
+        height: 648px;
+        color: #2B2626;
+        background-image: url('../../public/header/BG-Banner.png');
+        background-position: initial;
+        background-repeat: no-repeat;
+    }
+
+    .header__row {
+        height: 100%;
+        margin: 12px 35px 0 35px;
+        position: relative;
+    }
+
+    .header__text {
+        width: 459px;
+        padding-top: 48px;
+        margin: 0;
+    }
+    
+    .header__form {
+        display: none;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 779px) {
+    .header {
+        height: 535px;
+        color: #2B2626;
+        background-image: url('../../public/header/BG-Banner@3x.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .header__row {
+        height: 100%;
+        margin: 12px 17.5px 0 17.5px;
+        position: relative;
+        
+    }
+
+    .header__text {
+        width: 100%;
+        padding-top: 24px;
+        margin: 0;
+    }
+
+    .header__title {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+    
+    .header__subtitle {
+        width: 100%;
+        margin-top: 24px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .header__form {
+        display: none;
+    }
+}

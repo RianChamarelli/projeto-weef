@@ -13,10 +13,21 @@ import CarouselImg3 from './3.png';
 const Carousel = () => {
   return (
     <Swiper
+      breakpoints={{
+        380: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1280: {
+          slidesPerView: 3,
+        },
+      }}
       modules={[Pagination, A11y]}
       pagination={{ clickable: true }}
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >

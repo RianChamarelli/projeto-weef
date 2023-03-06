@@ -1,5 +1,7 @@
 import React from 'react';
 import { BiPhone } from 'react-icons/bi';
+import { BsList } from 'react-icons/bs';
+
 import './Nav.css';
 
 const Nav = () => {
@@ -8,6 +10,9 @@ const Nav = () => {
       <div className="container">
         <div className="nav__row">
           <h1 className="nav__text--slogan">TESTE FRONT</h1>
+          <span className="nav__list--options">
+            <BsList />
+          </span>
           <div className="nav__options">
             <ul className="nav__list">
               <li className="nav__itens">Como funciona</li>

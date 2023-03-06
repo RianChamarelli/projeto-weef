@@ -58,3 +58,32 @@
     margin: 0;
 }
 
+@media (min-width: 780px) and (max-width: 1279px) {
+    .vantage {
+        padding-top: 45px;
+    }
+
+    .vantage__img {
+        display: none;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 779px){
+    .vantage {
+        height: 100%;
+        padding-top: 45px;
+    }
+    
+    .vantage__information {
+        width: 350px;
+    }    
+
+    .vantage__list__text {
+        margin: 0 0 0 10px;
+        font-size: 14px;
+    }
+
+    .vantage__img {
+        display: none;
+    }
+}
