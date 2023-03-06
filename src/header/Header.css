@@ -54,7 +54,7 @@
 
 @media (min-width: 780px) and (max-width: 1279px){
     .header {
-        height: 648px;
+        height: 1278px;
         color: #2B2626;
         background-image: url('../../public/header/BG-Banner.png');
         background-position: initial;
@@ -74,13 +74,16 @@
     }
     
     .header__form {
-        display: none;
+        width: 100%;
+        margin: 50% auto 0 auto;
+        position: initial;
+        box-shadow: none;
     }
 }
 
 @media (min-width: 380px) and (max-width: 779px) {
     .header {
-        height: 535px;
+        height: 1185px;
         color: #2B2626;
         background-image: url('../../public/header/BG-Banner@3x.png');
         background-position: bottom;
@@ -116,6 +119,10 @@
     }
     
     .header__form {
-        display: none;
+        width: 100%;
+        margin: 10% auto 0 auto;
+        position: initial;
+        box-shadow: none;
     }
+    
 }
